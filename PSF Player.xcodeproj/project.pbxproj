@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B3E40E1453B02600C158DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E40D1453B02600C158DA /* UIKit.framework */; };
+		32B3E4101453B02600C158DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E40F1453B02600C158DA /* Foundation.framework */; };
+		32B3E4161453B02600C158DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32B3E4141453B02600C158DA /* InfoPlist.strings */; };
+		32B3E4181453B02600C158DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3E4171453B02600C158DA /* main.m */; };
+		32B3E41C1453B02600C158DA /* PSFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3E41B1453B02600C158DA /* PSFAppDelegate.m */; };
+		32B3E41F1453B02700C158DA /* PSFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3E41E1453B02700C158DA /* PSFViewController.m */; };
+		32B3E4221453B02800C158DA /* PSFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B3E4201453B02800C158DA /* PSFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32B3E4091453B02600C158DA /* PSF Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSF Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B3E40D1453B02600C158DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32B3E40F1453B02600C158DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32B3E4131453B02600C158DA /* PSF Player-Info.plist */ = {isa = PBXFileReference; path = "PSF Player-Info.plist"; sourceTree = "<group>"; };
+		32B3E4151453B02600C158DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32B3E4171453B02600C158DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B3E4191453B02600C158DA /* PSF Player-Prefix.pch */ = {isa = PBXFileReference; path = "PSF Player-Prefix.pch"; sourceTree = "<group>"; };
+		32B3E41A1453B02600C158DA /* PSFAppDelegate.h */ = {isa = PBXFileReference; path = PSFAppDelegate.h; sourceTree = "<group>"; };
+		32B3E41B1453B02600C158DA /* PSFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSFAppDelegate.m; sourceTree = "<group>"; };
+		32B3E41D1453B02600C158DA /* PSFViewController.h */ = {isa = PBXFileReference; path = PSFViewController.h; sourceTree = "<group>"; };
+		32B3E41E1453B02700C158DA /* PSFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSFViewController.m; sourceTree = "<group>"; };
+		32B3E4211453B02800C158DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B3E4061453B02600C158DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B3E40E1453B02600C158DA /* UIKit.framework in Frameworks */,
+				32B3E4101453B02600C158DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B3E3FE1453B02500C158DA = {
+			isa = PBXGroup;
+			children = (
+				32B3E4111453B02600C158DA /* PSF Player */,
+				32B3E40C1453B02600C158DA /* Frameworks */,
+				32B3E40A1453B02600C158DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B3E40A1453B02600C158DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B3E4091453B02600C158DA /* PSF Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B3E40C1453B02600C158DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32B3E40D1453B02600C158DA /* UIKit.framework */,
+				32B3E40F1453B02600C158DA /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32B3E4111453B02600C158DA /* PSF Player */ = {
+			isa = PBXGroup;
+			children = (
+				32B3E41A1453B02600C158DA /* PSFAppDelegate.h */,
+				32B3E41B1453B02600C158DA /* PSFAppDelegate.m */,
+				32B3E41D1453B02600C158DA /* PSFViewController.h */,
+				32B3E41E1453B02700C158DA /* PSFViewController.m */,
+				32B3E4201453B02800C158DA /* PSFViewController.xib */,
+				32B3E4121453B02600C158DA /* Supporting Files */,
+			);
+			path = "PSF Player";
+			sourceTree = "<group>";
+		};
+		32B3E4121453B02600C158DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B3E4131453B02600C158DA /* PSF Player-Info.plist */,
+				32B3E4141453B02600C158DA /* InfoPlist.strings */,
+				32B3E4171453B02600C158DA /* main.m */,
+				32B3E4191453B02600C158DA /* PSF Player-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B3E4081453B02600C158DA /* PSF Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B3E4251453B02800C158DA /* Build configuration list for PBXNativeTarget "PSF Player" */;
+			buildPhases = (
+				32B3E4051453B02600C158DA /* Sources */,
+				32B3E4061453B02600C158DA /* Frameworks */,
+				32B3E4071453B02600C158DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PSF Player";
+			productName = "PSF Player";
+			productReference = 32B3E4091453B02600C158DA /* PSF Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B3E4001453B02500C158DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Digital Worlds Entertainment";
+			};
+			buildConfigurationList = 32B3E4031453B02500C158DA /* Build configuration list for PBXProject "PSF Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32B3E3FE1453B02500C158DA;
+			productRefGroup = 32B3E40A1453B02600C158DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B3E4081453B02600C158DA /* PSF Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B3E4071453B02600C158DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B3E4161453B02600C158DA /* InfoPlist.strings in Resources */,
+				32B3E4221453B02800C158DA /* PSFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B3E4051453B02600C158DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B3E4181453B02600C158DA /* main.m in Sources */,
+				32B3E41C1453B02600C158DA /* PSFAppDelegate.m in Sources */,
+				32B3E41F1453B02700C158DA /* PSFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32B3E4141453B02600C158DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B3E4151453B02600C158DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32B3E4201453B02800C158DA /* PSFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B3E4211453B02800C158DA /* en */,
+			);
+			name = PSFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B3E4231453B02800C158DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32B3E4241453B02800C158DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B3E4261453B02800C158DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSF Player/PSF Player-Prefix.pch";
+				INFOPLIST_FILE = "PSF Player/PSF Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32B3E4271453B02800C158DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PSF Player/PSF Player-Prefix.pch";
+				INFOPLIST_FILE = "PSF Player/PSF Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B3E4031453B02500C158DA /* Build configuration list for PBXProject "PSF Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B3E4231453B02800C158DA /* Debug */,
+				32B3E4241453B02800C158DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B3E4251453B02800C158DA /* Build configuration list for PBXNativeTarget "PSF Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B3E4261453B02800C158DA /* Debug */,
+				32B3E4271453B02800C158DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B3E4001453B02500C158DA /* Project object */;
+}
