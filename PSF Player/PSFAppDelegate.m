@@ -14,11 +14,17 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize currentFile = _currentFile;
+@synthesize cpu = _cpu;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+	NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Sample" ofType:@"psf"];
+	self.currentFile = [[PSFFile alloc] initWithFilePath:filePath];
+    self.cpu = [[PSFCpu alloc] initWithExeData:[self.currentFile programData]];
+    while ([self.cpu executeInstruction]) {}
 	self.viewController = [[PSFViewController alloc] initWithNibName:@"PSFViewController" bundle:nil];
 	self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

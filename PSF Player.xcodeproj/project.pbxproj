@@ -8,6 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		3293DFB21469F186000E9293 /* PSFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFB11469F186000E9293 /* PSFUtils.m */; };
+		3293DFEA146A3C37000E9293 /* ChangeLog in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFB5146A3C37000E9293 /* ChangeLog */; };
+		3293DFEB146A3C37000E9293 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFB6146A3C37000E9293 /* LICENSE */; };
+		3293DFEC146A3C37000E9293 /* psf_format.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFB7146A3C37000E9293 /* psf_format.txt */; };
+		3293DFED146A3C37000E9293 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFB8146A3C37000E9293 /* README */; };
+		3293DFEE146A3C37000E9293 /* spu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFB9146A3C37000E9293 /* spu.txt */; };
+		3293DFEF146A3C37000E9293 /* spu2regs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFBA146A3C37000E9293 /* spu2regs.txt */; };
+		3293DFF0146A3C37000E9293 /* system.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFBB146A3C37000E9293 /* system.txt */; };
+		3293DFF1146A3C37000E9293 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFBC146A3C37000E9293 /* TODO */; };
+		3293DFF2146A3C37000E9293 /* LnxMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFC0146A3C37000E9293 /* LnxMain.c */; };
+		3293DFF3146A3C37000E9293 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFC1146A3C37000E9293 /* Makefile */; };
+		3293DFF4146A3C37000E9293 /* oss.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFC2146A3C37000E9293 /* oss.c */; };
+		3293DFF5146A3C37000E9293 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 3293DFC4146A3C37000E9293 /* README */; };
+		3293DFF6146A3C37000E9293 /* Misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFC5146A3C37000E9293 /* Misc.c */; };
+		3293DFF7146A3C37000E9293 /* PsxBios.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFC7146A3C37000E9293 /* PsxBios.c */; };
+		3293DFF8146A3C37000E9293 /* PsxCounters.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFCA146A3C37000E9293 /* PsxCounters.c */; };
+		3293DFF9146A3C37000E9293 /* PsxDma.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFCC146A3C37000E9293 /* PsxDma.c */; };
+		3293DFFA146A3C37000E9293 /* PsxHLE.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFCE146A3C37000E9293 /* PsxHLE.c */; };
+		3293DFFB146A3C37000E9293 /* PsxHw.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFD0146A3C37000E9293 /* PsxHw.c */; };
+		3293DFFC146A3C37000E9293 /* PsxInterpreter.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFD2146A3C37000E9293 /* PsxInterpreter.c */; };
+		3293DFFD146A3C37000E9293 /* PsxMem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFD3146A3C37000E9293 /* PsxMem.c */; };
+		3293DFFE146A3C37000E9293 /* R3000A.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFD5146A3C37000E9293 /* R3000A.c */; };
+		3293DFFF146A3C37000E9293 /* adsr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFD8146A3C37000E9293 /* adsr.c */; };
+		3293E000146A3C37000E9293 /* dma.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFDA146A3C37000E9293 /* dma.c */; };
+		3293E001146A3C37000E9293 /* registers.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFDE146A3C37000E9293 /* registers.c */; };
+		3293E002146A3C37000E9293 /* reverb.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFE1146A3C37000E9293 /* reverb.c */; };
+		3293E003146A3C37000E9293 /* spu.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFE2146A3C37000E9293 /* spu.c */; };
+		3293E004146A3C37000E9293 /* Spu.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFE5146A3C37000E9293 /* Spu.c */; };
+		3293E005146A3C37000E9293 /* xmms.c in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFE9146A3C37000E9293 /* xmms.c */; };
 		32B3E40E1453B02600C158DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E40D1453B02600C158DA /* UIKit.framework */; };
 		32B3E4101453B02600C158DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E40F1453B02600C158DA /* Foundation.framework */; };
 		32B3E4161453B02600C158DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32B3E4141453B02600C158DA /* InfoPlist.strings */; };
@@ -24,6 +52,56 @@
 /* Begin PBXFileReference section */
 		3293DFB01469F186000E9293 /* PSFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFUtils.h; sourceTree = "<group>"; };
 		3293DFB11469F186000E9293 /* PSFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFUtils.m; sourceTree = "<group>"; };
+		3293DFB5146A3C37000E9293 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		3293DFB6146A3C37000E9293 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3293DFB7146A3C37000E9293 /* psf_format.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = psf_format.txt; sourceTree = "<group>"; };
+		3293DFB8146A3C37000E9293 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3293DFB9146A3C37000E9293 /* spu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spu.txt; sourceTree = "<group>"; };
+		3293DFBA146A3C37000E9293 /* spu2regs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spu2regs.txt; sourceTree = "<group>"; };
+		3293DFBB146A3C37000E9293 /* system.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = system.txt; sourceTree = "<group>"; };
+		3293DFBC146A3C37000E9293 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		3293DFBD146A3C37000E9293 /* driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = driver.h; sourceTree = "<group>"; };
+		3293DFBF146A3C37000E9293 /* Linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linux.h; sourceTree = "<group>"; };
+		3293DFC0146A3C37000E9293 /* LnxMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LnxMain.c; sourceTree = "<group>"; };
+		3293DFC1146A3C37000E9293 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		3293DFC2146A3C37000E9293 /* oss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oss.c; sourceTree = "<group>"; };
+		3293DFC3146A3C37000E9293 /* oss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oss.h; sourceTree = "<group>"; };
+		3293DFC4146A3C37000E9293 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		3293DFC5146A3C37000E9293 /* Misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Misc.c; sourceTree = "<group>"; };
+		3293DFC6146A3C37000E9293 /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Misc.h; sourceTree = "<group>"; };
+		3293DFC7146A3C37000E9293 /* PsxBios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxBios.c; sourceTree = "<group>"; };
+		3293DFC8146A3C37000E9293 /* PsxBios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxBios.h; sourceTree = "<group>"; };
+		3293DFC9146A3C37000E9293 /* PsxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxCommon.h; sourceTree = "<group>"; };
+		3293DFCA146A3C37000E9293 /* PsxCounters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxCounters.c; sourceTree = "<group>"; };
+		3293DFCB146A3C37000E9293 /* PsxCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxCounters.h; sourceTree = "<group>"; };
+		3293DFCC146A3C37000E9293 /* PsxDma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxDma.c; sourceTree = "<group>"; };
+		3293DFCD146A3C37000E9293 /* PsxDma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxDma.h; sourceTree = "<group>"; };
+		3293DFCE146A3C37000E9293 /* PsxHLE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxHLE.c; sourceTree = "<group>"; };
+		3293DFCF146A3C37000E9293 /* PsxHLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxHLE.h; sourceTree = "<group>"; };
+		3293DFD0146A3C37000E9293 /* PsxHw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxHw.c; sourceTree = "<group>"; };
+		3293DFD1146A3C37000E9293 /* PsxHw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxHw.h; sourceTree = "<group>"; };
+		3293DFD2146A3C37000E9293 /* PsxInterpreter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxInterpreter.c; sourceTree = "<group>"; };
+		3293DFD3146A3C37000E9293 /* PsxMem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PsxMem.c; sourceTree = "<group>"; };
+		3293DFD4146A3C37000E9293 /* PsxMem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsxMem.h; sourceTree = "<group>"; };
+		3293DFD5146A3C37000E9293 /* R3000A.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = R3000A.c; sourceTree = "<group>"; };
+		3293DFD6146A3C37000E9293 /* R3000A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R3000A.h; sourceTree = "<group>"; };
+		3293DFD8146A3C37000E9293 /* adsr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adsr.c; sourceTree = "<group>"; };
+		3293DFD9146A3C37000E9293 /* adsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adsr.h; sourceTree = "<group>"; };
+		3293DFDA146A3C37000E9293 /* dma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dma.c; sourceTree = "<group>"; };
+		3293DFDB146A3C37000E9293 /* dma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dma.h; sourceTree = "<group>"; };
+		3293DFDC146A3C37000E9293 /* externals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = externals.h; sourceTree = "<group>"; };
+		3293DFDD146A3C37000E9293 /* gauss_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauss_i.h; sourceTree = "<group>"; };
+		3293DFDE146A3C37000E9293 /* registers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = registers.c; sourceTree = "<group>"; };
+		3293DFDF146A3C37000E9293 /* registers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registers.h; sourceTree = "<group>"; };
+		3293DFE0146A3C37000E9293 /* regs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regs.h; sourceTree = "<group>"; };
+		3293DFE1146A3C37000E9293 /* reverb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverb.c; sourceTree = "<group>"; };
+		3293DFE2146A3C37000E9293 /* spu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spu.c; sourceTree = "<group>"; };
+		3293DFE3146A3C37000E9293 /* spu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spu.h; sourceTree = "<group>"; };
+		3293DFE4146A3C37000E9293 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		3293DFE5146A3C37000E9293 /* Spu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Spu.c; sourceTree = "<group>"; };
+		3293DFE6146A3C37000E9293 /* Spu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spu.h; sourceTree = "<group>"; };
+		3293DFE7146A3C37000E9293 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		3293DFE9146A3C37000E9293 /* xmms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmms.c; sourceTree = "<group>"; };
 		32B3E4091453B02600C158DA /* PSF Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSF Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B3E40D1453B02600C158DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32B3E40F1453B02600C158DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,56 +118,6 @@
 		32B3E42D1453C20500C158DA /* PSFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFFile.h; sourceTree = "<group>"; };
 		32B3E42E1453C20500C158DA /* PSFFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFFile.m; sourceTree = "<group>"; };
 		32B3E4311453D82200C158DA /* Sample.psf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample.psf; sourceTree = "<group>"; };
-		DF16590A1459C22C00D6A5F1 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
-		DF16590B1459C22C00D6A5F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DF16590C1459C22C00D6A5F1 /* psf_format.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = psf_format.txt; sourceTree = "<group>"; };
-		DF16590D1459C22C00D6A5F1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		DF16590E1459C22C00D6A5F1 /* spu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spu.txt; sourceTree = "<group>"; };
-		DF16590F1459C22C00D6A5F1 /* spu2regs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spu2regs.txt; sourceTree = "<group>"; };
-		DF1659101459C22C00D6A5F1 /* system.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = system.txt; sourceTree = "<group>"; };
-		DF1659111459C22C00D6A5F1 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
-		DF1659121459C22C00D6A5F1 /* driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = driver.h; path = "../sexypsf-0.4.8/driver.h"; sourceTree = "<group>"; };
-		DF1659141459C22C00D6A5F1 /* Linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linux.h; sourceTree = "<group>"; };
-		DF1659151459C22C00D6A5F1 /* LnxMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LnxMain.c; sourceTree = "<group>"; };
-		DF1659161459C22C00D6A5F1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		DF1659171459C22C00D6A5F1 /* oss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oss.c; sourceTree = "<group>"; };
-		DF1659181459C22C00D6A5F1 /* oss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oss.h; sourceTree = "<group>"; };
-		DF1659191459C22C00D6A5F1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		DF16591A1459C22C00D6A5F1 /* Misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Misc.c; path = "../sexypsf-0.4.8/Misc.c"; sourceTree = "<group>"; };
-		DF16591B1459C22C00D6A5F1 /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Misc.h; path = "../sexypsf-0.4.8/Misc.h"; sourceTree = "<group>"; };
-		DF16591C1459C22C00D6A5F1 /* PsxBios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxBios.c; path = "../sexypsf-0.4.8/PsxBios.c"; sourceTree = "<group>"; };
-		DF16591D1459C22C00D6A5F1 /* PsxBios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxBios.h; path = "../sexypsf-0.4.8/PsxBios.h"; sourceTree = "<group>"; };
-		DF16591E1459C22C00D6A5F1 /* PsxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxCommon.h; path = "../sexypsf-0.4.8/PsxCommon.h"; sourceTree = "<group>"; };
-		DF16591F1459C22C00D6A5F1 /* PsxCounters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxCounters.c; path = "../sexypsf-0.4.8/PsxCounters.c"; sourceTree = "<group>"; };
-		DF1659201459C22C00D6A5F1 /* PsxCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxCounters.h; path = "../sexypsf-0.4.8/PsxCounters.h"; sourceTree = "<group>"; };
-		DF1659211459C22C00D6A5F1 /* PsxDma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxDma.c; path = "../sexypsf-0.4.8/PsxDma.c"; sourceTree = "<group>"; };
-		DF1659221459C22C00D6A5F1 /* PsxDma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxDma.h; path = "../sexypsf-0.4.8/PsxDma.h"; sourceTree = "<group>"; };
-		DF1659231459C22C00D6A5F1 /* PsxHLE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxHLE.c; path = "../sexypsf-0.4.8/PsxHLE.c"; sourceTree = "<group>"; };
-		DF1659241459C22C00D6A5F1 /* PsxHLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxHLE.h; path = "../sexypsf-0.4.8/PsxHLE.h"; sourceTree = "<group>"; };
-		DF1659251459C22C00D6A5F1 /* PsxHw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxHw.c; path = "../sexypsf-0.4.8/PsxHw.c"; sourceTree = "<group>"; };
-		DF1659261459C22C00D6A5F1 /* PsxHw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxHw.h; path = "../sexypsf-0.4.8/PsxHw.h"; sourceTree = "<group>"; };
-		DF1659271459C22C00D6A5F1 /* PsxInterpreter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxInterpreter.c; path = "../sexypsf-0.4.8/PsxInterpreter.c"; sourceTree = "<group>"; };
-		DF1659281459C22C00D6A5F1 /* PsxMem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxMem.c; path = "../sexypsf-0.4.8/PsxMem.c"; sourceTree = "<group>"; };
-		DF1659291459C22C00D6A5F1 /* PsxMem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxMem.h; path = "../sexypsf-0.4.8/PsxMem.h"; sourceTree = "<group>"; };
-		DF16592A1459C22C00D6A5F1 /* R3000A.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = R3000A.c; path = "../sexypsf-0.4.8/R3000A.c"; sourceTree = "<group>"; };
-		DF16592B1459C22C00D6A5F1 /* R3000A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = R3000A.h; path = "../sexypsf-0.4.8/R3000A.h"; sourceTree = "<group>"; };
-		DF16592D1459C22C00D6A5F1 /* adsr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adsr.c; sourceTree = "<group>"; };
-		DF16592E1459C22C00D6A5F1 /* adsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adsr.h; sourceTree = "<group>"; };
-		DF16592F1459C22C00D6A5F1 /* dma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dma.c; sourceTree = "<group>"; };
-		DF1659301459C22C00D6A5F1 /* dma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dma.h; sourceTree = "<group>"; };
-		DF1659311459C22C00D6A5F1 /* externals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = externals.h; sourceTree = "<group>"; };
-		DF1659321459C22C00D6A5F1 /* gauss_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauss_i.h; sourceTree = "<group>"; };
-		DF1659331459C22C00D6A5F1 /* registers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = registers.c; sourceTree = "<group>"; };
-		DF1659341459C22C00D6A5F1 /* registers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registers.h; sourceTree = "<group>"; };
-		DF1659351459C22C00D6A5F1 /* regs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regs.h; sourceTree = "<group>"; };
-		DF1659361459C22C00D6A5F1 /* reverb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverb.c; sourceTree = "<group>"; };
-		DF1659371459C22C00D6A5F1 /* spu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spu.c; sourceTree = "<group>"; };
-		DF1659381459C22C00D6A5F1 /* spu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spu.h; sourceTree = "<group>"; };
-		DF1659391459C22C00D6A5F1 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
-		DF16593A1459C22C00D6A5F1 /* Spu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Spu.c; path = "../sexypsf-0.4.8/Spu.c"; sourceTree = "<group>"; };
-		DF16593B1459C22C00D6A5F1 /* Spu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spu.h; path = "../sexypsf-0.4.8/Spu.h"; sourceTree = "<group>"; };
-		DF16593C1459C22C00D6A5F1 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = "../sexypsf-0.4.8/types.h"; sourceTree = "<group>"; };
-		DF16593E1459C22C00D6A5F1 /* xmms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmms.c; sourceTree = "<group>"; };
 		DFD1B4B51459D861006BB55D /* PSFCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFCpu.h; sourceTree = "<group>"; };
 		DFD1B4B61459D861006BB55D /* PSFCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFCpu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +136,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3293DFB4146A3C37000E9293 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				3293DFB5146A3C37000E9293 /* ChangeLog */,
+				3293DFB6146A3C37000E9293 /* LICENSE */,
+				3293DFB7146A3C37000E9293 /* psf_format.txt */,
+				3293DFB8146A3C37000E9293 /* README */,
+				3293DFB9146A3C37000E9293 /* spu.txt */,
+				3293DFBA146A3C37000E9293 /* spu2regs.txt */,
+				3293DFBB146A3C37000E9293 /* system.txt */,
+				3293DFBC146A3C37000E9293 /* TODO */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		3293DFBE146A3C37000E9293 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				3293DFBF146A3C37000E9293 /* Linux.h */,
+				3293DFC0146A3C37000E9293 /* LnxMain.c */,
+				3293DFC1146A3C37000E9293 /* Makefile */,
+				3293DFC2146A3C37000E9293 /* oss.c */,
+				3293DFC3146A3C37000E9293 /* oss.h */,
+				3293DFC4146A3C37000E9293 /* README */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		3293DFD7146A3C37000E9293 /* spu */ = {
+			isa = PBXGroup;
+			children = (
+				3293DFD8146A3C37000E9293 /* adsr.c */,
+				3293DFD9146A3C37000E9293 /* adsr.h */,
+				3293DFDA146A3C37000E9293 /* dma.c */,
+				3293DFDB146A3C37000E9293 /* dma.h */,
+				3293DFDC146A3C37000E9293 /* externals.h */,
+				3293DFDD146A3C37000E9293 /* gauss_i.h */,
+				3293DFDE146A3C37000E9293 /* registers.c */,
+				3293DFDF146A3C37000E9293 /* registers.h */,
+				3293DFE0146A3C37000E9293 /* regs.h */,
+				3293DFE1146A3C37000E9293 /* reverb.c */,
+				3293DFE2146A3C37000E9293 /* spu.c */,
+				3293DFE3146A3C37000E9293 /* spu.h */,
+				3293DFE4146A3C37000E9293 /* stdafx.h */,
+			);
+			path = spu;
+			sourceTree = "<group>";
+		};
+		3293DFE8146A3C37000E9293 /* xmms */ = {
+			isa = PBXGroup;
+			children = (
+				3293DFE9146A3C37000E9293 /* xmms.c */,
+			);
+			path = xmms;
+			sourceTree = "<group>";
+		};
 		32B3E3FE1453B02500C158DA = {
 			isa = PBXGroup;
 			children = (
@@ -178,94 +262,34 @@
 		DF1659071459C1FF00D6A5F1 /* PSF Source */ = {
 			isa = PBXGroup;
 			children = (
-				DF1659091459C22C00D6A5F1 /* Docs */,
-				DF1659121459C22C00D6A5F1 /* driver.h */,
-				DF1659131459C22C00D6A5F1 /* Linux */,
-				DF16591A1459C22C00D6A5F1 /* Misc.c */,
-				DF16591B1459C22C00D6A5F1 /* Misc.h */,
-				DF16591C1459C22C00D6A5F1 /* PsxBios.c */,
-				DF16591D1459C22C00D6A5F1 /* PsxBios.h */,
-				DF16591E1459C22C00D6A5F1 /* PsxCommon.h */,
-				DF16591F1459C22C00D6A5F1 /* PsxCounters.c */,
-				DF1659201459C22C00D6A5F1 /* PsxCounters.h */,
-				DF1659211459C22C00D6A5F1 /* PsxDma.c */,
-				DF1659221459C22C00D6A5F1 /* PsxDma.h */,
-				DF1659231459C22C00D6A5F1 /* PsxHLE.c */,
-				DF1659241459C22C00D6A5F1 /* PsxHLE.h */,
-				DF1659251459C22C00D6A5F1 /* PsxHw.c */,
-				DF1659261459C22C00D6A5F1 /* PsxHw.h */,
-				DF1659271459C22C00D6A5F1 /* PsxInterpreter.c */,
-				DF1659281459C22C00D6A5F1 /* PsxMem.c */,
-				DF1659291459C22C00D6A5F1 /* PsxMem.h */,
-				DF16592A1459C22C00D6A5F1 /* R3000A.c */,
-				DF16592B1459C22C00D6A5F1 /* R3000A.h */,
-				DF16592C1459C22C00D6A5F1 /* spu */,
-				DF16593A1459C22C00D6A5F1 /* Spu.c */,
-				DF16593B1459C22C00D6A5F1 /* Spu.h */,
-				DF16593C1459C22C00D6A5F1 /* types.h */,
-				DF16593D1459C22C00D6A5F1 /* xmms */,
+				3293DFB4146A3C37000E9293 /* Docs */,
+				3293DFBD146A3C37000E9293 /* driver.h */,
+				3293DFBE146A3C37000E9293 /* Linux */,
+				3293DFC5146A3C37000E9293 /* Misc.c */,
+				3293DFC6146A3C37000E9293 /* Misc.h */,
+				3293DFC7146A3C37000E9293 /* PsxBios.c */,
+				3293DFC8146A3C37000E9293 /* PsxBios.h */,
+				3293DFC9146A3C37000E9293 /* PsxCommon.h */,
+				3293DFCA146A3C37000E9293 /* PsxCounters.c */,
+				3293DFCB146A3C37000E9293 /* PsxCounters.h */,
+				3293DFCC146A3C37000E9293 /* PsxDma.c */,
+				3293DFCD146A3C37000E9293 /* PsxDma.h */,
+				3293DFCE146A3C37000E9293 /* PsxHLE.c */,
+				3293DFCF146A3C37000E9293 /* PsxHLE.h */,
+				3293DFD0146A3C37000E9293 /* PsxHw.c */,
+				3293DFD1146A3C37000E9293 /* PsxHw.h */,
+				3293DFD2146A3C37000E9293 /* PsxInterpreter.c */,
+				3293DFD3146A3C37000E9293 /* PsxMem.c */,
+				3293DFD4146A3C37000E9293 /* PsxMem.h */,
+				3293DFD5146A3C37000E9293 /* R3000A.c */,
+				3293DFD6146A3C37000E9293 /* R3000A.h */,
+				3293DFD7146A3C37000E9293 /* spu */,
+				3293DFE5146A3C37000E9293 /* Spu.c */,
+				3293DFE6146A3C37000E9293 /* Spu.h */,
+				3293DFE7146A3C37000E9293 /* types.h */,
+				3293DFE8146A3C37000E9293 /* xmms */,
 			);
 			name = "PSF Source";
-			sourceTree = "<group>";
-		};
-		DF1659091459C22C00D6A5F1 /* Docs */ = {
-			isa = PBXGroup;
-			children = (
-				DF16590A1459C22C00D6A5F1 /* ChangeLog */,
-				DF16590B1459C22C00D6A5F1 /* LICENSE */,
-				DF16590C1459C22C00D6A5F1 /* psf_format.txt */,
-				DF16590D1459C22C00D6A5F1 /* README */,
-				DF16590E1459C22C00D6A5F1 /* spu.txt */,
-				DF16590F1459C22C00D6A5F1 /* spu2regs.txt */,
-				DF1659101459C22C00D6A5F1 /* system.txt */,
-				DF1659111459C22C00D6A5F1 /* TODO */,
-			);
-			name = Docs;
-			path = "../sexypsf-0.4.8/Docs";
-			sourceTree = "<group>";
-		};
-		DF1659131459C22C00D6A5F1 /* Linux */ = {
-			isa = PBXGroup;
-			children = (
-				DF1659141459C22C00D6A5F1 /* Linux.h */,
-				DF1659151459C22C00D6A5F1 /* LnxMain.c */,
-				DF1659161459C22C00D6A5F1 /* Makefile */,
-				DF1659171459C22C00D6A5F1 /* oss.c */,
-				DF1659181459C22C00D6A5F1 /* oss.h */,
-				DF1659191459C22C00D6A5F1 /* README */,
-			);
-			name = Linux;
-			path = "../sexypsf-0.4.8/Linux";
-			sourceTree = "<group>";
-		};
-		DF16592C1459C22C00D6A5F1 /* spu */ = {
-			isa = PBXGroup;
-			children = (
-				DF16592D1459C22C00D6A5F1 /* adsr.c */,
-				DF16592E1459C22C00D6A5F1 /* adsr.h */,
-				DF16592F1459C22C00D6A5F1 /* dma.c */,
-				DF1659301459C22C00D6A5F1 /* dma.h */,
-				DF1659311459C22C00D6A5F1 /* externals.h */,
-				DF1659321459C22C00D6A5F1 /* gauss_i.h */,
-				DF1659331459C22C00D6A5F1 /* registers.c */,
-				DF1659341459C22C00D6A5F1 /* registers.h */,
-				DF1659351459C22C00D6A5F1 /* regs.h */,
-				DF1659361459C22C00D6A5F1 /* reverb.c */,
-				DF1659371459C22C00D6A5F1 /* spu.c */,
-				DF1659381459C22C00D6A5F1 /* spu.h */,
-				DF1659391459C22C00D6A5F1 /* stdafx.h */,
-			);
-			name = spu;
-			path = "../sexypsf-0.4.8/spu";
-			sourceTree = "<group>";
-		};
-		DF16593D1459C22C00D6A5F1 /* xmms */ = {
-			isa = PBXGroup;
-			children = (
-				DF16593E1459C22C00D6A5F1 /* xmms.c */,
-			);
-			name = xmms;
-			path = "../sexypsf-0.4.8/xmms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +346,15 @@
 				32B3E4161453B02600C158DA /* InfoPlist.strings in Resources */,
 				32B3E4221453B02800C158DA /* PSFViewController.xib in Resources */,
 				32B3E4321453D82200C158DA /* Sample.psf in Resources */,
+				3293DFEA146A3C37000E9293 /* ChangeLog in Resources */,
+				3293DFEB146A3C37000E9293 /* LICENSE in Resources */,
+				3293DFEC146A3C37000E9293 /* psf_format.txt in Resources */,
+				3293DFED146A3C37000E9293 /* README in Resources */,
+				3293DFEE146A3C37000E9293 /* spu.txt in Resources */,
+				3293DFEF146A3C37000E9293 /* spu2regs.txt in Resources */,
+				3293DFF0146A3C37000E9293 /* system.txt in Resources */,
+				3293DFF1146A3C37000E9293 /* TODO in Resources */,
+				3293DFF5146A3C37000E9293 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +371,25 @@
 				32B3E42F1453C20500C158DA /* PSFFile.m in Sources */,
 				DFD1B4B71459D861006BB55D /* PSFCpu.m in Sources */,
 				3293DFB21469F186000E9293 /* PSFUtils.m in Sources */,
+				3293DFF2146A3C37000E9293 /* LnxMain.c in Sources */,
+				3293DFF3146A3C37000E9293 /* Makefile in Sources */,
+				3293DFF4146A3C37000E9293 /* oss.c in Sources */,
+				3293DFF6146A3C37000E9293 /* Misc.c in Sources */,
+				3293DFF7146A3C37000E9293 /* PsxBios.c in Sources */,
+				3293DFF8146A3C37000E9293 /* PsxCounters.c in Sources */,
+				3293DFF9146A3C37000E9293 /* PsxDma.c in Sources */,
+				3293DFFA146A3C37000E9293 /* PsxHLE.c in Sources */,
+				3293DFFB146A3C37000E9293 /* PsxHw.c in Sources */,
+				3293DFFC146A3C37000E9293 /* PsxInterpreter.c in Sources */,
+				3293DFFD146A3C37000E9293 /* PsxMem.c in Sources */,
+				3293DFFE146A3C37000E9293 /* R3000A.c in Sources */,
+				3293DFFF146A3C37000E9293 /* adsr.c in Sources */,
+				3293E000146A3C37000E9293 /* dma.c in Sources */,
+				3293E001146A3C37000E9293 /* registers.c in Sources */,
+				3293E002146A3C37000E9293 /* reverb.c in Sources */,
+				3293E003146A3C37000E9293 /* spu.c in Sources */,
+				3293E004146A3C37000E9293 /* Spu.c in Sources */,
+				3293E005146A3C37000E9293 /* xmms.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

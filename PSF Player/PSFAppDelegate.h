@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PSFFile.h"
+#import "PSFCpu.h"
 
 @class PSFViewController;
 
@@ -15,5 +17,7 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) PSFViewController *viewController;
+@property (strong, nonatomic) PSFFile *currentFile;
+@property (strong, nonatomic) PSFCpu *cpu;
 
 @end
