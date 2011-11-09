@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3293DFB21469F186000E9293 /* PSFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3293DFB11469F186000E9293 /* PSFUtils.m */; };
 		32B3E40E1453B02600C158DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E40D1453B02600C158DA /* UIKit.framework */; };
 		32B3E4101453B02600C158DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E40F1453B02600C158DA /* Foundation.framework */; };
 		32B3E4161453B02600C158DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32B3E4141453B02600C158DA /* InfoPlist.strings */; };
@@ -14,21 +15,83 @@
 		32B3E41C1453B02600C158DA /* PSFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3E41B1453B02600C158DA /* PSFAppDelegate.m */; };
 		32B3E41F1453B02700C158DA /* PSFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3E41E1453B02700C158DA /* PSFViewController.m */; };
 		32B3E4221453B02800C158DA /* PSFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B3E4201453B02800C158DA /* PSFViewController.xib */; };
+		32B3E42C1453B17100C158DA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B3E42B1453B17100C158DA /* libz.dylib */; };
+		32B3E42F1453C20500C158DA /* PSFFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B3E42E1453C20500C158DA /* PSFFile.m */; };
+		32B3E4321453D82200C158DA /* Sample.psf in Resources */ = {isa = PBXBuildFile; fileRef = 32B3E4311453D82200C158DA /* Sample.psf */; };
+		DFD1B4B71459D861006BB55D /* PSFCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1B4B61459D861006BB55D /* PSFCpu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3293DFB01469F186000E9293 /* PSFUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFUtils.h; sourceTree = "<group>"; };
+		3293DFB11469F186000E9293 /* PSFUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFUtils.m; sourceTree = "<group>"; };
 		32B3E4091453B02600C158DA /* PSF Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PSF Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B3E40D1453B02600C158DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		32B3E40F1453B02600C158DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		32B3E4131453B02600C158DA /* PSF Player-Info.plist */ = {isa = PBXFileReference; path = "PSF Player-Info.plist"; sourceTree = "<group>"; };
+		32B3E4131453B02600C158DA /* PSF Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PSF Player-Info.plist"; sourceTree = "<group>"; };
 		32B3E4151453B02600C158DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32B3E4171453B02600C158DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32B3E4191453B02600C158DA /* PSF Player-Prefix.pch */ = {isa = PBXFileReference; path = "PSF Player-Prefix.pch"; sourceTree = "<group>"; };
-		32B3E41A1453B02600C158DA /* PSFAppDelegate.h */ = {isa = PBXFileReference; path = PSFAppDelegate.h; sourceTree = "<group>"; };
+		32B3E4191453B02600C158DA /* PSF Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSF Player-Prefix.pch"; sourceTree = "<group>"; };
+		32B3E41A1453B02600C158DA /* PSFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSFAppDelegate.h; sourceTree = "<group>"; };
 		32B3E41B1453B02600C158DA /* PSFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSFAppDelegate.m; sourceTree = "<group>"; };
-		32B3E41D1453B02600C158DA /* PSFViewController.h */ = {isa = PBXFileReference; path = PSFViewController.h; sourceTree = "<group>"; };
+		32B3E41D1453B02600C158DA /* PSFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSFViewController.h; sourceTree = "<group>"; };
 		32B3E41E1453B02700C158DA /* PSFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSFViewController.m; sourceTree = "<group>"; };
 		32B3E4211453B02800C158DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSFViewController.xib; sourceTree = "<group>"; };
+		32B3E42B1453B17100C158DA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		32B3E42D1453C20500C158DA /* PSFFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFFile.h; sourceTree = "<group>"; };
+		32B3E42E1453C20500C158DA /* PSFFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFFile.m; sourceTree = "<group>"; };
+		32B3E4311453D82200C158DA /* Sample.psf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sample.psf; sourceTree = "<group>"; };
+		DF16590A1459C22C00D6A5F1 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		DF16590B1459C22C00D6A5F1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DF16590C1459C22C00D6A5F1 /* psf_format.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = psf_format.txt; sourceTree = "<group>"; };
+		DF16590D1459C22C00D6A5F1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DF16590E1459C22C00D6A5F1 /* spu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spu.txt; sourceTree = "<group>"; };
+		DF16590F1459C22C00D6A5F1 /* spu2regs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spu2regs.txt; sourceTree = "<group>"; };
+		DF1659101459C22C00D6A5F1 /* system.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = system.txt; sourceTree = "<group>"; };
+		DF1659111459C22C00D6A5F1 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		DF1659121459C22C00D6A5F1 /* driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = driver.h; path = "../sexypsf-0.4.8/driver.h"; sourceTree = "<group>"; };
+		DF1659141459C22C00D6A5F1 /* Linux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linux.h; sourceTree = "<group>"; };
+		DF1659151459C22C00D6A5F1 /* LnxMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LnxMain.c; sourceTree = "<group>"; };
+		DF1659161459C22C00D6A5F1 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		DF1659171459C22C00D6A5F1 /* oss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oss.c; sourceTree = "<group>"; };
+		DF1659181459C22C00D6A5F1 /* oss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oss.h; sourceTree = "<group>"; };
+		DF1659191459C22C00D6A5F1 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DF16591A1459C22C00D6A5F1 /* Misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Misc.c; path = "../sexypsf-0.4.8/Misc.c"; sourceTree = "<group>"; };
+		DF16591B1459C22C00D6A5F1 /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Misc.h; path = "../sexypsf-0.4.8/Misc.h"; sourceTree = "<group>"; };
+		DF16591C1459C22C00D6A5F1 /* PsxBios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxBios.c; path = "../sexypsf-0.4.8/PsxBios.c"; sourceTree = "<group>"; };
+		DF16591D1459C22C00D6A5F1 /* PsxBios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxBios.h; path = "../sexypsf-0.4.8/PsxBios.h"; sourceTree = "<group>"; };
+		DF16591E1459C22C00D6A5F1 /* PsxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxCommon.h; path = "../sexypsf-0.4.8/PsxCommon.h"; sourceTree = "<group>"; };
+		DF16591F1459C22C00D6A5F1 /* PsxCounters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxCounters.c; path = "../sexypsf-0.4.8/PsxCounters.c"; sourceTree = "<group>"; };
+		DF1659201459C22C00D6A5F1 /* PsxCounters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxCounters.h; path = "../sexypsf-0.4.8/PsxCounters.h"; sourceTree = "<group>"; };
+		DF1659211459C22C00D6A5F1 /* PsxDma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxDma.c; path = "../sexypsf-0.4.8/PsxDma.c"; sourceTree = "<group>"; };
+		DF1659221459C22C00D6A5F1 /* PsxDma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxDma.h; path = "../sexypsf-0.4.8/PsxDma.h"; sourceTree = "<group>"; };
+		DF1659231459C22C00D6A5F1 /* PsxHLE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxHLE.c; path = "../sexypsf-0.4.8/PsxHLE.c"; sourceTree = "<group>"; };
+		DF1659241459C22C00D6A5F1 /* PsxHLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxHLE.h; path = "../sexypsf-0.4.8/PsxHLE.h"; sourceTree = "<group>"; };
+		DF1659251459C22C00D6A5F1 /* PsxHw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxHw.c; path = "../sexypsf-0.4.8/PsxHw.c"; sourceTree = "<group>"; };
+		DF1659261459C22C00D6A5F1 /* PsxHw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxHw.h; path = "../sexypsf-0.4.8/PsxHw.h"; sourceTree = "<group>"; };
+		DF1659271459C22C00D6A5F1 /* PsxInterpreter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxInterpreter.c; path = "../sexypsf-0.4.8/PsxInterpreter.c"; sourceTree = "<group>"; };
+		DF1659281459C22C00D6A5F1 /* PsxMem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PsxMem.c; path = "../sexypsf-0.4.8/PsxMem.c"; sourceTree = "<group>"; };
+		DF1659291459C22C00D6A5F1 /* PsxMem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PsxMem.h; path = "../sexypsf-0.4.8/PsxMem.h"; sourceTree = "<group>"; };
+		DF16592A1459C22C00D6A5F1 /* R3000A.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = R3000A.c; path = "../sexypsf-0.4.8/R3000A.c"; sourceTree = "<group>"; };
+		DF16592B1459C22C00D6A5F1 /* R3000A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = R3000A.h; path = "../sexypsf-0.4.8/R3000A.h"; sourceTree = "<group>"; };
+		DF16592D1459C22C00D6A5F1 /* adsr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adsr.c; sourceTree = "<group>"; };
+		DF16592E1459C22C00D6A5F1 /* adsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = adsr.h; sourceTree = "<group>"; };
+		DF16592F1459C22C00D6A5F1 /* dma.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dma.c; sourceTree = "<group>"; };
+		DF1659301459C22C00D6A5F1 /* dma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dma.h; sourceTree = "<group>"; };
+		DF1659311459C22C00D6A5F1 /* externals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = externals.h; sourceTree = "<group>"; };
+		DF1659321459C22C00D6A5F1 /* gauss_i.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauss_i.h; sourceTree = "<group>"; };
+		DF1659331459C22C00D6A5F1 /* registers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = registers.c; sourceTree = "<group>"; };
+		DF1659341459C22C00D6A5F1 /* registers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registers.h; sourceTree = "<group>"; };
+		DF1659351459C22C00D6A5F1 /* regs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regs.h; sourceTree = "<group>"; };
+		DF1659361459C22C00D6A5F1 /* reverb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reverb.c; sourceTree = "<group>"; };
+		DF1659371459C22C00D6A5F1 /* spu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spu.c; sourceTree = "<group>"; };
+		DF1659381459C22C00D6A5F1 /* spu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spu.h; sourceTree = "<group>"; };
+		DF1659391459C22C00D6A5F1 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		DF16593A1459C22C00D6A5F1 /* Spu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Spu.c; path = "../sexypsf-0.4.8/Spu.c"; sourceTree = "<group>"; };
+		DF16593B1459C22C00D6A5F1 /* Spu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spu.h; path = "../sexypsf-0.4.8/Spu.h"; sourceTree = "<group>"; };
+		DF16593C1459C22C00D6A5F1 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = "../sexypsf-0.4.8/types.h"; sourceTree = "<group>"; };
+		DF16593E1459C22C00D6A5F1 /* xmms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmms.c; sourceTree = "<group>"; };
+		DFD1B4B51459D861006BB55D /* PSFCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFCpu.h; sourceTree = "<group>"; };
+		DFD1B4B61459D861006BB55D /* PSFCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFCpu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B3E42C1453B17100C158DA /* libz.dylib in Frameworks */,
 				32B3E40E1453B02600C158DA /* UIKit.framework in Frameworks */,
 				32B3E4101453B02600C158DA /* Foundation.framework in Frameworks */,
 			);
@@ -47,6 +111,8 @@
 		32B3E3FE1453B02500C158DA = {
 			isa = PBXGroup;
 			children = (
+				DF1659071459C1FF00D6A5F1 /* PSF Source */,
+				32B3E4301453D7ED00C158DA /* PSF Files */,
 				32B3E4111453B02600C158DA /* PSF Player */,
 				32B3E40C1453B02600C158DA /* Frameworks */,
 				32B3E40A1453B02600C158DA /* Products */,
@@ -64,6 +130,7 @@
 		32B3E40C1453B02600C158DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32B3E42B1453B17100C158DA /* libz.dylib */,
 				32B3E40D1453B02600C158DA /* UIKit.framework */,
 				32B3E40F1453B02600C158DA /* Foundation.framework */,
 			);
@@ -78,7 +145,13 @@
 				32B3E41D1453B02600C158DA /* PSFViewController.h */,
 				32B3E41E1453B02700C158DA /* PSFViewController.m */,
 				32B3E4201453B02800C158DA /* PSFViewController.xib */,
+				DFD1B4B51459D861006BB55D /* PSFCpu.h */,
+				DFD1B4B61459D861006BB55D /* PSFCpu.m */,
+				32B3E42D1453C20500C158DA /* PSFFile.h */,
+				32B3E42E1453C20500C158DA /* PSFFile.m */,
 				32B3E4121453B02600C158DA /* Supporting Files */,
+				3293DFB01469F186000E9293 /* PSFUtils.h */,
+				3293DFB11469F186000E9293 /* PSFUtils.m */,
 			);
 			path = "PSF Player";
 			sourceTree = "<group>";
@@ -92,6 +165,107 @@
 				32B3E4191453B02600C158DA /* PSF Player-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32B3E4301453D7ED00C158DA /* PSF Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B3E4311453D82200C158DA /* Sample.psf */,
+			);
+			name = "PSF Files";
+			sourceTree = "<group>";
+		};
+		DF1659071459C1FF00D6A5F1 /* PSF Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF1659091459C22C00D6A5F1 /* Docs */,
+				DF1659121459C22C00D6A5F1 /* driver.h */,
+				DF1659131459C22C00D6A5F1 /* Linux */,
+				DF16591A1459C22C00D6A5F1 /* Misc.c */,
+				DF16591B1459C22C00D6A5F1 /* Misc.h */,
+				DF16591C1459C22C00D6A5F1 /* PsxBios.c */,
+				DF16591D1459C22C00D6A5F1 /* PsxBios.h */,
+				DF16591E1459C22C00D6A5F1 /* PsxCommon.h */,
+				DF16591F1459C22C00D6A5F1 /* PsxCounters.c */,
+				DF1659201459C22C00D6A5F1 /* PsxCounters.h */,
+				DF1659211459C22C00D6A5F1 /* PsxDma.c */,
+				DF1659221459C22C00D6A5F1 /* PsxDma.h */,
+				DF1659231459C22C00D6A5F1 /* PsxHLE.c */,
+				DF1659241459C22C00D6A5F1 /* PsxHLE.h */,
+				DF1659251459C22C00D6A5F1 /* PsxHw.c */,
+				DF1659261459C22C00D6A5F1 /* PsxHw.h */,
+				DF1659271459C22C00D6A5F1 /* PsxInterpreter.c */,
+				DF1659281459C22C00D6A5F1 /* PsxMem.c */,
+				DF1659291459C22C00D6A5F1 /* PsxMem.h */,
+				DF16592A1459C22C00D6A5F1 /* R3000A.c */,
+				DF16592B1459C22C00D6A5F1 /* R3000A.h */,
+				DF16592C1459C22C00D6A5F1 /* spu */,
+				DF16593A1459C22C00D6A5F1 /* Spu.c */,
+				DF16593B1459C22C00D6A5F1 /* Spu.h */,
+				DF16593C1459C22C00D6A5F1 /* types.h */,
+				DF16593D1459C22C00D6A5F1 /* xmms */,
+			);
+			name = "PSF Source";
+			sourceTree = "<group>";
+		};
+		DF1659091459C22C00D6A5F1 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				DF16590A1459C22C00D6A5F1 /* ChangeLog */,
+				DF16590B1459C22C00D6A5F1 /* LICENSE */,
+				DF16590C1459C22C00D6A5F1 /* psf_format.txt */,
+				DF16590D1459C22C00D6A5F1 /* README */,
+				DF16590E1459C22C00D6A5F1 /* spu.txt */,
+				DF16590F1459C22C00D6A5F1 /* spu2regs.txt */,
+				DF1659101459C22C00D6A5F1 /* system.txt */,
+				DF1659111459C22C00D6A5F1 /* TODO */,
+			);
+			name = Docs;
+			path = "../sexypsf-0.4.8/Docs";
+			sourceTree = "<group>";
+		};
+		DF1659131459C22C00D6A5F1 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				DF1659141459C22C00D6A5F1 /* Linux.h */,
+				DF1659151459C22C00D6A5F1 /* LnxMain.c */,
+				DF1659161459C22C00D6A5F1 /* Makefile */,
+				DF1659171459C22C00D6A5F1 /* oss.c */,
+				DF1659181459C22C00D6A5F1 /* oss.h */,
+				DF1659191459C22C00D6A5F1 /* README */,
+			);
+			name = Linux;
+			path = "../sexypsf-0.4.8/Linux";
+			sourceTree = "<group>";
+		};
+		DF16592C1459C22C00D6A5F1 /* spu */ = {
+			isa = PBXGroup;
+			children = (
+				DF16592D1459C22C00D6A5F1 /* adsr.c */,
+				DF16592E1459C22C00D6A5F1 /* adsr.h */,
+				DF16592F1459C22C00D6A5F1 /* dma.c */,
+				DF1659301459C22C00D6A5F1 /* dma.h */,
+				DF1659311459C22C00D6A5F1 /* externals.h */,
+				DF1659321459C22C00D6A5F1 /* gauss_i.h */,
+				DF1659331459C22C00D6A5F1 /* registers.c */,
+				DF1659341459C22C00D6A5F1 /* registers.h */,
+				DF1659351459C22C00D6A5F1 /* regs.h */,
+				DF1659361459C22C00D6A5F1 /* reverb.c */,
+				DF1659371459C22C00D6A5F1 /* spu.c */,
+				DF1659381459C22C00D6A5F1 /* spu.h */,
+				DF1659391459C22C00D6A5F1 /* stdafx.h */,
+			);
+			name = spu;
+			path = "../sexypsf-0.4.8/spu";
+			sourceTree = "<group>";
+		};
+		DF16593D1459C22C00D6A5F1 /* xmms */ = {
+			isa = PBXGroup;
+			children = (
+				DF16593E1459C22C00D6A5F1 /* xmms.c */,
+			);
+			name = xmms;
+			path = "../sexypsf-0.4.8/xmms";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +321,7 @@
 			files = (
 				32B3E4161453B02600C158DA /* InfoPlist.strings in Resources */,
 				32B3E4221453B02800C158DA /* PSFViewController.xib in Resources */,
+				32B3E4321453D82200C158DA /* Sample.psf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +335,9 @@
 				32B3E4181453B02600C158DA /* main.m in Sources */,
 				32B3E41C1453B02600C158DA /* PSFAppDelegate.m in Sources */,
 				32B3E41F1453B02700C158DA /* PSFViewController.m in Sources */,
+				32B3E42F1453C20500C158DA /* PSFFile.m in Sources */,
+				DFD1B4B71459D861006BB55D /* PSFCpu.m in Sources */,
+				3293DFB21469F186000E9293 /* PSFUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +449,7 @@
 				32B3E4271453B02800C158DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
